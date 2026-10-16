@@ -1,0 +1,10 @@
+﻿streamlit
+opencv-python
+numpy
+pandas
+matplotlib
+Pillow
+python-dotenv
+groq
+streamlit-drawable-canvas
+torch

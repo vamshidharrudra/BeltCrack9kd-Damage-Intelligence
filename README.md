@@ -25,7 +25,7 @@ The project's audit scripts recorded 13 dataset packages and checked JSON annota
 
 ### Access and licensing
 
-The raw dataset is **not included** in this GitHub repository because the download is very large (approximately 162 GB in the local project setup). Obtain BeltCrack9kd from the original dataset publisher/source, and follow its license, citation requirements, and access terms. No dataset download URL is provided here because the exact canonical source URL and redistribution terms have not been verified in this README.
+The raw dataset is **not included** in this GitHub repository because the download is very large (approximately 162 GB in the local project setup). Download BeltCrack9kd from the original publisher on [ScienceDB](https://doi.org/10.57760/sciencedb.31181). The publisher's [official project repository](https://github.com/UESTC-nnLab/BeltCrack) provides the dataset download instructions and the recommended research citation. Follow the publisher's access terms and citation requirements.
 
 After downloading and extracting the dataset, configure the paths expected by the relevant scripts for your local environment. Do not assume every script runs without path configuration or generated intermediate files.
 

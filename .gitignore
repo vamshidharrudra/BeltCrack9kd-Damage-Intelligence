@@ -1,0 +1,50 @@
+
+# Secrets - never commit API keys
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Raw dataset and archives
+BeltCrack9kd/
+dataset/
+datasets/
+data/raw/
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Large model and binary artifacts (review separately before adding)
+*.pt
+*.pth
+*.pkl
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+temp/
+tmp/
+# Large generated outputs
+audit_outputs/
+canonical_dataset/
+models/
+
+# Generated videos and large data files
+*.mp4
+*.csv
